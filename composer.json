@@ -1,0 +1,28 @@
+{
+    "name": "creeone/FileToText",
+    "description": "PHP library for getting text from documents",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Creeone",
+            "email": "creeone@mail.ru"
+        },
+        {
+            "name": "Abelkrown",
+            "email": "krown.loki@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-zip": "*",
+        "ext-json": "*",
+        "phpoffice/phpword": "dev-master",
+        "phpoffice/phpspreadsheet": "^1.8",
+        "phpoffice/phppresentation": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "creeone\\FileToText\\": "src"
+        }
+    }
+}
