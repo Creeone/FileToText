@@ -3,6 +3,7 @@
     "description": "PHP library for getting text from documents",
     "type": "library",
     "version": "0.0.1",
+    "license": "MIT",
     "authors": [
         {
             "name": "Creeone",
