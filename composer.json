@@ -17,9 +17,9 @@
     "require": {
         "ext-zip": "*",
         "ext-json": "*",
-        "phpoffice/phpword": "*",
+        "phpoffice/phpword": "dev-master",
         "phpoffice/phpspreadsheet": "^1.8",
-        "phpoffice/phppresentation": "*"
+        "phpoffice/phppresentation": "dev-master"
     },
     "autoload": {
         "psr-4": {
