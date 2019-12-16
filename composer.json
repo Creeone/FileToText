@@ -1,5 +1,5 @@
 {
-    "name": "creeone/FileToText",
+    "name": "creeone/filetotext",
     "description": "PHP library for getting text from documents",
     "type": "library",
     "authors": [
