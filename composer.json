@@ -1,7 +1,8 @@
 {
-    "name": "creeone/FileToText",
+    "name": "creeone/filetotext",
     "description": "PHP library for getting text from documents",
     "type": "library",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Creeone",
