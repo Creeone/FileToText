@@ -1,3 +1,3 @@
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/Creeone/FileToText/releases/)
+[![GitHub tag](https://img.shields.io/github/tag/creeone/FileToText.svg)](https://GitHub.com/creeone/FileToText/tags/)
 # FileToText
 Convert All type of file to JSON for Elastic Search
