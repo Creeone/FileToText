@@ -2,6 +2,7 @@
     "name": "creeone/filetotext",
     "description": "PHP library for getting text from documents",
     "type": "library",
+    "license": "MIT",
     "version": "0.1.0",
     "authors": [
         {
