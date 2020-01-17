@@ -23,10 +23,10 @@ class DocParse extends AbstractParse implements IFileToText
         foreach ($sections as $value) {
             $sectionElements = $value->getElements();
 
-            //TODO кодирвока utf-8 .doc
             foreach ($sectionElements as $elementValue) {
                 if ($elementValue instanceof Text) {
-                    $content[] = $elementValue->getText();
+                    $text = $this->getEncodingText($elementValue->getText());
+                    $content[] = $text;
                 }
             }
         }
@@ -34,6 +34,20 @@ class DocParse extends AbstractParse implements IFileToText
         $content = implode(' ', $content);
         $this->createPage($content);
         return $this->getJSON();
+    }
+
+    protected function isASCII($text)
+    {
+        return mb_detect_encoding($text) === 'ASCII';
+    }
+
+    protected function getEncodingText($text)
+    {
+        if ($this->isASCII($text)) {
+            return $text;
+        }
+
+        return iconv('Windows-1251','UTF-8', iconv('UTF-16','CP1251', $text));
     }
 
 }

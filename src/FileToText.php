@@ -42,6 +42,15 @@ class FileToText
                 //$this->parser = new PptParse($this->file);
                 throw new \Exception('ppt is not avaliable');
                 break;
+            case 'pdf':
+                $this->parser = new PdfParse($this->file);
+                break;
+            case 'xml':
+                $this->parser = new XmlParse($this->file);
+                break;
+            case 'html':
+                $this->parser = new HtmlParse($this->file);
+                break;
             default:
                 throw new \Exception("Неподходящий тип файла");
         }

@@ -17,9 +17,12 @@
     "require": {
         "ext-zip": "*",
         "ext-json": "*",
+        "ext-dom": "*",
+        "ext-mbstring": "*"
         "phpoffice/phpword": "@dev",
         "phpoffice/phpspreadsheet": "^1.8",
-        "phpoffice/phppresentation": "@dev"
+        "phpoffice/phppresentation": "@dev",
+        "smalot/pdfparser": "^0.14.0"
     },
     "autoload": {
         "psr-4": {

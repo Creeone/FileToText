@@ -19,9 +19,9 @@ class PptParse extends AbstractParse implements IFileToText
     {
         $pptReader = IOFactory::createReader('PowerPoint97');
         $presentation = $pptReader->load($this->file);
+        var_dump($presentation);
 
-        $slides = $presentation->getAllSlides();
-        var_dump($slides);exit;
+
 
 
     }
