@@ -18,7 +18,7 @@
         "ext-zip": "*",
         "ext-json": "*",
         "ext-dom": "*",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
         "phpoffice/phpword": "@dev",
         "phpoffice/phpspreadsheet": "^1.8",
         "phpoffice/phppresentation": "@dev",
