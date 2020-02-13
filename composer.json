@@ -19,10 +19,10 @@
         "ext-json": "*",
         "ext-dom": "*",
         "ext-mbstring": "*",
-        "phpoffice/phpword": "@dev",
         "phpoffice/phpspreadsheet": "^1.8",
         "phpoffice/phppresentation": "@dev",
-        "smalot/pdfparser": "^0.14.0"
+        "smalot/pdfparser": "^0.14.0",
+        "phpoffice/phpword": "^0.17.0"
     },
     "autoload": {
         "psr-4": {
